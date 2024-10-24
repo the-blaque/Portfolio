@@ -61,20 +61,6 @@ const Landing: React.FC = () => {
           </div>
           <div>
             <a
-              href="https://github.com/the-blaque/Software-Development-CPSC-2720-"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-custom-orange underline"
-            >
-              <h5 className="text-md font-semibold">Card Games</h5>
-            </a>
-            <p className="text-sm">
-              Generic text-based cards game implemented using a variety of
-              design patterns
-            </p>
-          </div>
-          <div>
-            <a
               href="https://github.com/the-blaque/EXPRESSION-CALCULATOR"
               target="_blank"
               rel="noopener noreferrer"
