@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import {
   BrowserRouter as Router,
   Routes,
@@ -43,6 +44,7 @@ function App() {
   };
 
   return (
+    
     <div className="App">
       <div className="min-h-screen bg-white dark:bg-black text-black dark:text-white transition-colors duration-300">
         <div className="max-w-4xl mx-auto p-8">
@@ -107,6 +109,7 @@ function App() {
           <Route path="/resume" element={<Resume />} />
         </Routes>
           </Router>
+          <Analytics/>
         </div>
       </div>
     </div>
