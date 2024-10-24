@@ -14,7 +14,7 @@ const Landing: React.FC = () => {
           discovering new sounds — always seeking new perspectives and
           inspiration.
         </p>
-        <div className="flex justify-between mt-4">
+        {/* <div className="flex justify-between mt-4">
           <a
             href="/about"
             className="text-sm text-custom-orange cursor-pointer hover:underline"
@@ -27,7 +27,7 @@ const Landing: React.FC = () => {
           >
             View my resume →
           </a>
-        </div>
+        </div> */}
       </section>
       <section>
         <h3 className="text-lg font-semibold mt-8 mb-2">Projects</h3>
@@ -39,7 +39,7 @@ const Landing: React.FC = () => {
               rel="noopener noreferrer"
               className="hover:text-custom-orange underline"
             >
-              <h5 className="text-md font-semibold">FakeNews</h5>
+              <h5 className="text-md font-semibold">FactFinder</h5>
             </a>
             <p className="text-sm">
               A Machine Learning and Natural Language Processing Approach to
