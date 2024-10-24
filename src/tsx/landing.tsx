@@ -32,6 +32,19 @@ const Landing: React.FC = () => {
       <section>
         <h3 className="text-lg font-semibold mt-8 mb-2">Projects</h3>
         <div className="space-y-6">
+        <div>
+            <a
+              href="https://theFidia.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-custom-orange underline"
+            >
+              <h5 className="text-md font-semibold">theFidia</h5>
+            </a>
+            <p className="text-sm">
+              A Saas Music publishing administration platform
+            </p>
+          </div>
           <div>
             <a
               href="https://github.com/the-blaque/FakeNews"
